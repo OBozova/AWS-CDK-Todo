@@ -1,0 +1,23 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "bin": {
+    "todo": "bin/todo.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.47.0",
+    "aws-cdk": "1.47.0",
+    "jest": "^25.5.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.47.0",
+    "@aws-cdk/aws-lambda": "^1.47.0",
+    "@aws-cdk/aws-s3": "^1.47.0",
+    "@aws-cdk/core": "1.47.0"
+  }
+}
